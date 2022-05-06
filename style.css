@@ -1,0 +1,37 @@
+body {
+  background-image: url("fotos-especiais/orbix2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.quadrado{
+  text-align: center;
+  max-width: 100%;
+  width: 12vw;
+  height: 20vh;
+  background: rgb(52, 2, 68);
+  display: inline-block;  /*só ocupa o espaço dele não utiliza o espaço da direita por exemplo*/
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;  
+  color: #eee;
+}
+h1 {
+  color: #eee;
+}
+.jogador, .vencedor{
+  font-size: 38px;
+  margin-top: 10px;
+  color: #eee;
+}
+button{
+  color: #eee;
+  margin-top: 10px;
+  width: 100px;
+  height: 38px;
+  background: rgb(52, 2, 68);
+  cursor: pointer;
+}
+
+
+
